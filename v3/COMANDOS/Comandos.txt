@@ -1,0 +1,29 @@
+git init (Iniciar um repositório local)
+
+git config --list (Verifica as credenciais existentes.)
+
+git config --global user.email "emanuelaluno.ti@gmail.com" (seta a credencial email - adiciona)
+
+git config --global user.name "Emanuel Marques" (seta o nome de usuário)
+
+git config --global --unset user.name (Remove o usuário)
+
+git config --global --unset user.email (Remove o email do usuário)
+
+git remote add origin https://github.com/emanuelmarqs/oficial1.git (vincular a um repositório remoto)
+
+git pull origin main (puxar os arquivos do repositório remoto)
+
+git status(Verificar qual branch seu repositório local esta configurado)
+
+git checkout -b main (mudar para a branch "main")
+
+git add . (adicionar as alterações na stage área)
+
+git commit -m "Mensagem inicial" (Salvar as alterações no local repo)
+
+git push origin main (Empurrar as alterações para o repositório remoto)
+
+https://github.com/joshnh/Git-Commands/blob/master/READMEpt.md
+
+

@@ -1,0 +1,2 @@
+Comando para abrir o terminal - VSCODE
+ctrl+shift+'aspas'

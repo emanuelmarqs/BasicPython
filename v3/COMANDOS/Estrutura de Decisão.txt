@@ -1,0 +1,44 @@
+// estrutura de decisão
+//switch
+/*
+var menu = Number ( prompt("Digite 1 para amarelo - Digite 2 para vermelho - Digite 3 para verde" ) );
+switch (menu){
+
+case 1:
+    alert ("Amarelo significa riqueza");
+    break;
+case 2:
+    alert ("Vermelho significa amor");
+    break;
+case 3: 
+    alert ("Verde significa esperança");
+    break;
+default:
+    alert ("Escolha uma opção válida:");
+    break;
+}
+*/
+
+// estrutura de repetição
+// while 
+function senha (){
+    var contador;
+    var senha=123;
+while (contador <=3) {
+    var senhadigitada = Number(prompt("Digite a senha de acesso"));
+if (senhadigitada == senha) {
+    alert ("acesso liberado");
+} else {
+    alert("acesso negado");
+}
+contador++;
+}
+}
+
+senha();
+
+
+
+
+
+
